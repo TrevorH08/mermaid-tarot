@@ -6,7 +6,7 @@ function App(){
     <React.Fragment>
       <Header />
       <h1>Welcome to Mermaid Tarot</h1>
-      <h2>Take a look at the different packages and book below!</h2>
+      <h2>Take a look at the different packages and book below! Cards coming soon</h2>
       <hr/>
     </React.Fragment>
   );
