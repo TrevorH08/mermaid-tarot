@@ -1,8 +1,24 @@
 import React from "react";
+import Navbar from 'react-bootstrap/Navbar';
+import Nav from 'react-bootstrap/Nav'
+import NavDropdown from 'react-bootstrap/NavDropdown'
 
 function Header(){
+  const headerStyle = {
+    border: "1px solid black",
+    backgroundColor: "#e5d9c3"
+  }
+
+  // const logoStyle = {
+  //   mix-blend-mode: color-burn
+  // }
+
   return (
-    <h1>Mermaid Tarot</h1>
+    <React.Fragment>
+      <Navbar className="navbar fixed-top navbar-light bg-light py-0" style={headerStyle}>
+        <h1>Mermaid Tarot</h1>
+      </Navbar>
+    </React.Fragment>
   );
 }
 
