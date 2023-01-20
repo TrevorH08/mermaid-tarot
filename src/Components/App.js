@@ -1,5 +1,7 @@
 import React from "react";
+import Home from "./Home";
 import Header from "./Header";
+import Footer from "./Footer";
 import Gallery from "./Gallery/Gallery";
 import Contact from "./ContactMe";
 import Policies from "./Policies";
@@ -12,8 +14,8 @@ const App = () => {
       <Header />
       <Routes>
       <Route exact path='/' element={<Home />} />
-        <Route path='/Gallery' element={<Gallery/>} />
-        <Route path='/Contact' element={<Contact/>} />
+        {/* <Route path='/Gallery' element={<Gallery/>} />
+        <Route path='/Contact' element={<Contact/>} /> */}
       </Routes>
       <Footer />
       </Router>

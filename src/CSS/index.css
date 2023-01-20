@@ -1,0 +1,73 @@
+#footer {
+  position: fixed;
+  background-color: #e5d9c3;
+  color: black;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#header {
+  background-color: #e5d9c3;
+
+}
+
+.headerList li {
+  display: inline;
+  list-style: none;
+  padding: 0.5rem;
+}
+
+.homeLink {
+  color:black;
+}
+
+.contactLink {
+  color: black;
+
+}
+
+.galleryLink {
+  color: black;
+}
+
+#header h1 {
+  color: black;
+  padding-left:2.5rem;
+}
+
+#gallery {
+  margin: auto;
+  max-width: 75%;
+}
+
+.socialMedia {
+  display: flex;
+  flex-direction: column;
+}
+
+#aboutMe {
+  text-align: center;
+  color: black;
+
+}
+
+.photo {
+  max-width: 100%;
+  margin: auto;
+}
+
+#homeImage {
+  margin-top: 4rem;
+}
+
+.contactHeader {
+  text-align: center;
+  color:black;
+}
+
+#contact {
+  margin-top: 5.5rem;
+}

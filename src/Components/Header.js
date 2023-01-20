@@ -20,6 +20,7 @@ function Header(){
   return (
     <React.Fragment>
       <div id="header">
+      <img className="mermaidTarot" src={Logo} alt="Mermaid Tarot Logo" height={300} width={300} />
       <h1>Mermaid Tarot</h1>
       <ul className="headerList">
         <li>
