@@ -1,14 +1,29 @@
 import React from "react";
 import Header from "./Header";
+import Gallery from "./Gallery/Gallery";
+import Contact from "./ContactMe";
+import Policies from "./Policies";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-function App(){
+const App = () => {
   return (
-    <React.Fragment>
+    <div className="App">
+      <Router>
       <Header />
-      <h1>Welcome to Mermaid Tarot</h1>
-      <h2>Take a look at the different packages and book below! Cards coming soon</h2>
-      <hr/>
-    </React.Fragment>
+      <Routes>
+      <Route exact path='/' element={<Home />} />
+        <Route path='/Gallery' element={<Gallery/>} />
+        <Route path='/Contact' element={<Contact/>} />
+      </Routes>
+      <Footer />
+      </Router>
+    </div>
+    // <React.Fragment>
+    //   <Header />
+    //   <h1>Welcome to Mermaid Tarot</h1>
+    //   <h2>Take a look at the different packages and book below! Cards coming soon</h2>
+    //   <hr/>
+    // </React.Fragment>
   );
 }
 
